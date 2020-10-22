@@ -1336,7 +1336,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: https://fontawesome.com/icons?from=io;
+  background: url(https://fontawesome.com/icons?from=io);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
