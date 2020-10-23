@@ -3093,7 +3093,7 @@ blockquote footer cite:before {
   text-align: center;
 }
 #footer-wrap a {
-  color: var(--light-grey);
+  color: #00c4b6;
 }
 #footer-wrap a:hover {
   text-decoration: underline;
