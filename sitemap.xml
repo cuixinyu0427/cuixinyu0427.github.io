@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://cuixinyu.icu/music/</loc>
-    
-    <lastmod>2020-10-24</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://cuixinyu.icu/posts/55c82d00/</loc>
     
     <lastmod>2020-10-24</lastmod>
@@ -16,7 +9,63 @@
   </url>
   
   <url>
+    <loc>https://cuixinyu.icu/posts/d4460fb7/</loc>
+    
+    <lastmod>2020-10-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cuixinyu.icu/posts/42225fe3/</loc>
+    
+    <lastmod>2020-10-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/posts/c4a5d8ce/</loc>
+    
+    <lastmod>2020-10-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/posts/9e0aa3fb/</loc>
+    
+    <lastmod>2020-10-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/posts/ad8496e8/</loc>
+    
+    <lastmod>2020-10-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/posts/aa2a6fbd/</loc>
+    
+    <lastmod>2020-10-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/posts/405e7e90/</loc>
+    
+    <lastmod>2020-10-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/posts/4a17b156/</loc>
+    
+    <lastmod>2020-10-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/music/</loc>
     
     <lastmod>2020-10-24</lastmod>
     
@@ -33,55 +82,6 @@
     <loc>https://cuixinyu.icu/APlayer-Meting-JustAddMusic/README</loc>
     
     <lastmod>2020-10-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cuixinyu.icu/posts/d4460fb7/</loc>
-    
-    <lastmod>2020-10-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cuixinyu.icu/posts/c4a5d8ce/</loc>
-    
-    <lastmod>2020-10-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cuixinyu.icu/posts/405e7e90/</loc>
-    
-    <lastmod>2020-10-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cuixinyu.icu/posts/9e0aa3fb/</loc>
-    
-    <lastmod>2020-10-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cuixinyu.icu/posts/aa2a6fbd/</loc>
-    
-    <lastmod>2020-10-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cuixinyu.icu/posts/ad8496e8/</loc>
-    
-    <lastmod>2020-10-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cuixinyu.icu/posts/4a17b156/</loc>
-    
-    <lastmod>2020-10-23</lastmod>
     
   </url>
   
@@ -139,14 +139,14 @@
 
   
   <url>
-    <loc>https://cuixinyu.icu/categories/%E7%BD%91%E7%AB%99%E9%AD%94%E6%94%B9/</loc>
+    <loc>https://cuixinyu.icu/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
     <lastmod>2020-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://cuixinyu.icu/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
+    <loc>https://cuixinyu.icu/categories/%E7%BD%91%E7%AB%99%E9%AD%94%E6%94%B9/</loc>
     <lastmod>2020-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
