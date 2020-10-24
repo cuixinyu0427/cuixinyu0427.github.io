@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cuixinyu.icu/posts/42225fe3/</loc>
+    
+    <lastmod>2020-10-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cuixinyu.icu/posts/c4a5d8ce/</loc>
     
-    <lastmod>2020-10-23</lastmod>
+    <lastmod>2020-10-24</lastmod>
     
   </url>
   
@@ -74,7 +81,7 @@
 
   <url>
     <loc>https://cuixinyu.icu/</loc>
-    <lastmod>2020-10-23</lastmod>
+    <lastmod>2020-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -82,14 +89,14 @@
   
   <url>
     <loc>https://cuixinyu.icu/tags/Hexo/</loc>
-    <lastmod>2020-10-23</lastmod>
+    <lastmod>2020-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://cuixinyu.icu/tags/Butterfly/</loc>
-    <lastmod>2020-10-23</lastmod>
+    <lastmod>2020-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -98,14 +105,14 @@
   
   <url>
     <loc>https://cuixinyu.icu/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
-    <lastmod>2020-10-23</lastmod>
+    <lastmod>2020-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://cuixinyu.icu/categories/%E7%BD%91%E7%AB%99%E9%AD%94%E6%94%B9/</loc>
-    <lastmod>2020-10-23</lastmod>
+    <lastmod>2020-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
