@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cuixinyu.icu/box/about/</loc>
+    
+    <lastmod>2020-10-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cuixinyu.icu/posts/72cfe8e6/</loc>
     
     <lastmod>2020-10-25</lastmod>
@@ -236,6 +243,13 @@
     <loc>https://cuixinyu.icu/history/json/01.json</loc>
     
     <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/box/</loc>
+    
+    <lastmod>2020-07-10</lastmod>
     
   </url>
   
