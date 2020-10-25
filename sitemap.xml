@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cuixinyu.icu/posts/420431aa/</loc>
+    
+    <lastmod>2020-10-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cuixinyu.icu/posts/cf8b29ee/</loc>
     
     <lastmod>2020-10-25</lastmod>
@@ -151,13 +158,6 @@
 
   
   <url>
-    <loc>https://cuixinyu.icu/tags/Vue/</loc>
-    <lastmod>2020-10-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cuixinyu.icu/tags/JEECG/</loc>
     <lastmod>2020-10-25</lastmod>
     <changefreq>daily</changefreq>
@@ -166,6 +166,13 @@
   
   <url>
     <loc>https://cuixinyu.icu/tags/Spring-Boot/</loc>
+    <lastmod>2020-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/tags/Vue/</loc>
     <lastmod>2020-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -188,14 +195,14 @@
 
   
   <url>
-    <loc>https://cuixinyu.icu/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://cuixinyu.icu/categories/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2020-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://cuixinyu.icu/categories/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://cuixinyu.icu/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2020-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
