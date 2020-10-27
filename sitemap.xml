@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://cuixinyu.icu/talk/</loc>
-    
-    <lastmod>2020-10-27</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://cuixinyu.icu/home/</loc>
     
     <lastmod>2020-10-26</lastmod>
@@ -166,6 +159,13 @@
     <loc>https://cuixinyu.icu/categories/</loc>
     
     <lastmod>2020-10-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/talk/</loc>
+    
+    <lastmod>2020-10-18</lastmod>
     
   </url>
   
