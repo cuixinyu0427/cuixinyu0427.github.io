@@ -2861,7 +2861,7 @@ blockquote footer cite:before {
     -webkit-justify-content: center;
     justify-content: center;
   }
-  html.hide-aside .layout > div:last-child {
+  html.hide-aside .layout > .aside_content {
     display: none;
   }
   html.hide-aside .layout > div:first-child {
@@ -3005,7 +3005,7 @@ blockquote footer cite:before {
   font-weight: 700;
   font-size: 1.43em;
 }
-#post-comment .comment-head .comment-switch {
+#post-comment .comment-head #comment-switch {
   display: inline-block;
   float: right;
   margin: 0.1rem auto 0;
@@ -3014,45 +3014,21 @@ blockquote footer cite:before {
   border-radius: 8px;
   background: #f6f8fa;
 }
-#post-comment .comment-head .comment-switch .first-comment {
+#post-comment .comment-head #comment-switch .first-comment {
   color: #49b1f5;
 }
-#post-comment .comment-head .comment-switch .second-comment {
+#post-comment .comment-head #comment-switch .second-comment {
   color: #ff7242;
 }
-#post-comment .comment-head .comment-switch label {
+#post-comment .comment-head #comment-switch .switch-btn {
   position: relative;
   display: inline-block;
   margin: -4px 0.4rem 0;
   width: 42px;
   height: 22px;
-  vertical-align: middle;
-}
-#post-comment .comment-head .comment-switch label input#switch-comments-btn {
-  width: 0;
-  height: 0;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-}
-#post-comment .comment-head .comment-switch label input#switch-comments-btn:checked + .slider {
-  background-color: #ff7242;
-}
-#post-comment .comment-head .comment-switch label input#switch-comments-btn:checked + .slider:before {
-  -webkit-transform: translateX(20px);
-  -moz-transform: translateX(20px);
-  -o-transform: translateX(20px);
-  -ms-transform: translateX(20px);
-  transform: translateX(20px);
-}
-#post-comment .comment-head .comment-switch label .slider {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   border-radius: 34px;
   background-color: #49b1f5;
+  vertical-align: middle;
   cursor: pointer;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
@@ -3060,7 +3036,7 @@ blockquote footer cite:before {
   -ms-transition: 0.4s;
   transition: 0.4s;
 }
-#post-comment .comment-head .comment-switch label .slider:before {
+#post-comment .comment-head #comment-switch .switch-btn:before {
   position: absolute;
   bottom: 4px;
   left: 4px;
@@ -3075,11 +3051,22 @@ blockquote footer cite:before {
   -ms-transition: 0.4s;
   transition: 0.4s;
 }
+#post-comment .comment-head #comment-switch .switch-btn.move {
+  background-color: #ff7242;
+}
+#post-comment .comment-head #comment-switch .switch-btn.move:before {
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  -o-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
 #post-comment .comment-wrap > div:nth-child(2) {
   display: none;
 }
 #footer {
   position: relative;
+  background: #49b1f5;
   background-attachment: local;
   background-position: bottom;
   -webkit-background-size: cover;
@@ -3093,7 +3080,7 @@ blockquote footer cite:before {
   text-align: center;
 }
 #footer-wrap a {
-  color: #00c4b6;
+  color: var(--light-grey);
 }
 #footer-wrap a:hover {
   text-decoration: underline;
@@ -3104,9 +3091,6 @@ blockquote footer cite:before {
 #footer-wrap .icp-icon {
   padding: 0 4px;
   vertical-align: text-bottom;
-}
-#footer-wrap .icp {
-  margin-top: -1.5rem;
 }
 #page-header {
   position: relative;
@@ -4439,18 +4423,6 @@ mjx-container[jax='CHTML'][display='true'] {
 #article-container .aplayer ul li:before {
   content: none;
 }
-.color-card {
-  width: 24% !important;
-  height: 180px !important;
-  margin: 0.3rem 0.5% !important;
-}
-@media screen and (max-width: 650px) {
-  .color-card {
-    width: 48% !important;
-    height: 150px !important;
-    margin: 0.3rem 1% !important;
-  }
-}
 #article-container .btn-center {
   margin: 0 0 1rem;
   text-align: center;
@@ -5360,10 +5332,10 @@ blockquote.pullquote.right {
   background: #1a1a1a !important;
   color: #90a4ae !important;
 }
-[data-theme='dark'] #post-comment .comment-switch {
+[data-theme='dark'] #post-comment #comment-switch {
   background: #2c2c2c !important;
 }
-[data-theme='dark'] #post-comment .comment-switch label {
+[data-theme='dark'] #post-comment #comment-switch .switch-btn {
   filter: brightness(0.8);
 }
 [data-theme='dark'] .note {
