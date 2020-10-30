@@ -186,4 +186,169 @@ if ('Valine' === 'Valine' || !false) {
   function loadOtherComment () {
     loadValine()
   }
-}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="https://cdn.jsdelivr.net/gh/cuixinyu0427/live2d-widget@v0.13/autoload.js"></script><script src="https://cdn.jsdelivr.net/gh/cuixinyu0427/resources/js/xkTool.js"></script><script src="/js/cuixinyu.js"></script><script src="/clock/js/vue.min.js"></script><script src="/clock/js/clock.js"></script><script src="/js/gitcalendar.js"></script><script src="/js/calendar.js"></script><script src="/magnet/js/vue.min.js"></script><script src="/magnet/js/catalogMagnet.js"></script><script src="/js/history.js"></script><script src="/js/historyroll.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/flipcountdown.js"></script><script data-pjax src="/js/runtime.js"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="true"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js" async="async" mobile="true"></script></div></body><script src="https://myhkw.cn/player/js/player.js" id="myhk" key="160324326723" m="1"></script></html>
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.17.0/js/md5.min.js"></script><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+    content = content.replace(/(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|jpeg|gif|png|webp)/g, '') // remove image link
+    content = content.replace(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gi, '') // remove url
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getIcon = (icon, mail) => {
+    if (icon) return icon 
+    let defaultIcon = '?d=monsterid'
+    let iconUrl = `https://gravatar.loli.net/avatar/${md5(mail.toLowerCase()) + defaultIcon}`
+    return iconUrl
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    for (let i = 0; i < array.length; i++) {
+      result += '<div class=\'aside-list-item\'>'
+
+      if (true) {
+        result += `<a href='${array[i].url}' class="thumbnail"><img src='${getIcon(array[i].avatar, array[i].mail)}' alt='${array[i].nick}'></a>`
+      }
+
+      result += `<div class='content'>
+      <a class='comment' href='${array[i].url}'>${array[i].content}</a>
+      <div class='name'><span>${array[i].nick}</span><time> / ${btf.diffDate(array[i].date, true)}</time></div>
+      </div></div>`
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom.innerHTML= result
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const getValineData = () => {
+      let serverURL = ''
+      if (false) {
+        serverURL = ''
+      } else {
+        serverURL = 'https://EP0PRjHS.api.lncldglobal.com'
+      }
+
+    var settings = {
+      "url": `${serverURL}/1.1/classes/Comment?limit=6&order=-createdAt`,
+      "method": "GET",
+      "timeout": 0,
+      "headers": {
+        "X-LC-Id": 'EP0PRjHSwOvPLXxAGgCdQcP3-MdYXbMMI',
+        "X-LC-Key": 'gaBfIrrcQpQkGqk14nsyQ3f1',
+        "Content-Type": "application/json"
+      },
+    }
+
+    $.ajax(settings).done((response) => {
+      var valineArray = []
+      response.results.forEach((e)=>{
+        valineArray.push({
+          'avatar': e.QQAvatar,
+          'content': changeContent(e.comment),
+          'mail': e.mail,
+          'nick': e.nick,
+          'url': e.url,
+          'date': e.createdAt,
+        })
+      })
+      
+      saveToLocal.set('leancloud-newest-comments', JSON.stringify(valineArray), 10/(60*24))
+      generateHtml(valineArray)
+
+    }).fail(()=>{
+      const $dom = document.querySelector('#card-newest-comments .aside-list')
+      $dom.innerHTML= "无法获取资料，请确认相关配置是否正确"
+    })
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('leancloud-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getValineData()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script src="https://cdn.jsdelivr.net/gh/cuixinyu0427/live2d-widget@v0.13/autoload.js"></script><script src="https://cdn.jsdelivr.net/gh/cuixinyu0427/resources/js/xkTool.js"></script><script src="/js/cuixinyu.js"></script><script src="/clock/js/vue.min.js"></script><script src="/clock/js/clock.js"></script><script src="/js/gitcalendar.js"></script><script src="/js/calendar.js"></script><script src="/magnet/js/vue.min.js"></script><script src="/magnet/js/catalogMagnet.js"></script><script src="/js/history.js"></script><script src="/js/historyroll.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/flipcountdown.js"></script><script data-pjax src="/js/runtime.js"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="true"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js" async="async" mobile="true"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config_change',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  $('script[data-pjax]').each(function () {
+    $(this).parent().append($(this).remove())
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  if (typeof gtag === 'function') {
+    gtag('config', '', {'page_path': window.location.pathname});
+  }
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+
+document.addEventListener('pjax:send', function () {
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  $(window).off('scroll')
+
+  //reset readmode
+  $('body').hasClass('read-mode') && $('body').removeClass('read-mode')
+
+})</script></div></body><script src="https://myhkw.cn/player/js/player.js" id="myhk" key="160324326723" m="1"></script></html>
