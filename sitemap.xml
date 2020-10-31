@@ -298,6 +298,13 @@
   </url>
   
   <url>
+    <loc>https://cuixinyu.icu/tags/Bilibili/</loc>
+    <lastmod>2020-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cuixinyu.icu/tags/JEECG/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
@@ -306,13 +313,6 @@
   
   <url>
     <loc>https://cuixinyu.icu/tags/Spring-Boot/</loc>
-    <lastmod>2020-10-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cuixinyu.icu/tags/Bilibili/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -342,13 +342,6 @@
   </url>
   
   <url>
-    <loc>https://cuixinyu.icu/categories/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2020-10-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cuixinyu.icu/categories/Vedio/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
@@ -356,7 +349,7 @@
   </url>
   
   <url>
-    <loc>https://cuixinyu.icu/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
+    <loc>https://cuixinyu.icu/categories/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -364,6 +357,13 @@
   
   <url>
     <loc>https://cuixinyu.icu/categories/%E7%BD%91%E7%AB%99%E9%AD%94%E6%94%B9/</loc>
+    <lastmod>2020-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cuixinyu.icu/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
