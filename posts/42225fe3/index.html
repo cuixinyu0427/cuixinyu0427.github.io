@@ -371,4 +371,38 @@ document.addEventListener('pjax:send', function () {
   //reset readmode
   $('body').hasClass('read-mode') && $('body').removeClass('read-mode')
 
-})</script></div></body><script src="https://myhkw.cn/player/js/player.js" id="myhk" key="160324326723" m="1"></script></html>
+})</script></div></body><script src="https://myhkw.cn/player/js/player.js" id="myhk" key="160324326723" m="1"></script>
+       <div class="GalMenu GalDropDown">
+          <div class="circle" id="gal">
+            <div class="ring">
+              <a href="/" class="menuItem">首页</a>
+              <a href="javascript:history.go(1);" class="menuItem">前进</a>
+              <a href="javascript:$('html,body').animate({scrollTop:0},500);" class="menuItem">顶部</a>
+              <a href="javascript:location.reload();" class="menuItem">刷新</a>
+              <a href="/Message/" class="menuItem">留言</a>
+              <a href="javascript:history.go(-1);" class="menuItem">后退</a>
+            </div>
+            
+                <audio id="audio" src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/audio/niconiconi.mp3"></audio>
+            
+          </div>
+    </div>
+    <script type="text/javascript">
+    var items = document.querySelectorAll('.menuItem');
+    for (var i = 0, l = items.length; i < l; i++) {
+        items[i].style.left = (50 - 35 * Math.cos( - 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%";
+        items[i].style.top = (50 + 35 * Math.sin( - 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%"
+      }
+    </script>
+    <script>window.jQuery || document.write('<script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/js/jquery-2.1.1.min.js"></script>')</script>
+    
+<script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@master/hexo/js/GalMenu.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $('body').GalMenu({
+          'menu': 'GalDropDown'
+        })
+      });
+    </script>
+</html>
