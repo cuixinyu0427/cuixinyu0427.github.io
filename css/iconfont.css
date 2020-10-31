@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2152827_1alm1cak596.eot?t=1603423116770'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2152827_1alm1cak596.eot?t=1603423116770#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPkAAsAAAAACBQAAAOXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqEFIMqATYCJAMICwYABCAFhG0HOxvbBhFVnHfIfh6YbmTTD3Slv3mPGF2JUs7lfB696kdzmWQhsL2XPTJY6tRRHYDKlTwJEEBw/6dmWIQOJBODnTamZt5P9v13ua7nNS5RAVuwRv//HDNdiucHmlNm094AxwMaYFTRaIAXDXIHxjeMXXkR24EAwMGGFyIpJasILGgY/QgARFd7az3YlAx0TTIBFgRUJVNpEHvAgCW3ktcB7PZ/nviIgFiABEPBSMtrSW5C3JtcM4wSNIIqFwH6eBoAbBZAAfAC0ABRVKrLARX6vFDgFB8NB1hXMgG8ydVoXNpq//EAAiBUMBK1AABWkHZOdJtxqn9JAgBoAGoARwBc7PVgQB1Nq1T6tLe2fueyS8my5YTzg2LphGnphLEkGBXx2yWzckF0EU3kxclVl+M2sszdL9kmGo2uHj1okThvcZtl5YjC882UDlnMjTlLSqMkrSimJVrbZKL0CN3tEsgxkbOhtMhS0ehkxGlbRdkuSYKxbTZVFFMzwnRiu7mxlORLZLVjGD3sdDKiVFg0uZojHzK+kS0ZN9RQOj65NFE2kRXTa5nbFzKOTJX4uo/MWTSHtIQ9DNnROfn1z02vrEX6pj8GPNAbhyB8ajv2Wm/jkscStwM7wIpuyW/73habSWyejwovtQ7ofJ5/c2XLlbXO3oH6wuGdnMdh/Qn3z4m04UFDpOgf1Oftt5BGnDaQA78H/guWZXvG3YM+zY218Ubuz/f2XS82YNT6DvYcE5jy5OLVZEfG0iHAUBVY0a9zZ1jHcqm3/rHNG6He3jA8zmGTeVTCD+OB+6ZMTICpC4E4AICG6qTUv/B3wL6OV2p1o76xPA0AeHaya4dv0dBoZwDYG9UTwA+jt6yhVaYhJ2mZXhoicQTqF1FE4nAADWwywK+vwRhGrCGwnA6BtIY1UFhOSBrrBQxeEKiwYoHjifVsniGYjVgNwAMvAAQ9vIGk4wJQ9PBB0tgvMEzwBxU9wgZOSYZL8lyIxklkzARLyJ/QFDQqSylOkHzA6tpnnGT6uAvy1Dgh9IJscI0j8hgjplsViShQTAOswG7Y9wSaqcVCvFpEx76vyu7kFTQYjkQMZQQqAXJPgEaBjJTbWDi57z9AlatehmuqKuQXiE2a1gEhPAQtkGve2KrqWm6Z3FQiCKEAFEYGgBXQoN70EYAu79RCBeGh7uHRYvionmrL8+YXDE+3CYBjiMnMNhT0EzdJ3vSNnTVzC9JPwwAA') format('woff2'),
+  url('//at.alicdn.com/t/font_2152827_1alm1cak596.woff?t=1603423116770') format('woff'),
+  url('//at.alicdn.com/t/font_2152827_1alm1cak596.ttf?t=1603423116770') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2152827_1alm1cak596.svg?t=1603423116770#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconCN_bilibiliB-copy:before {
+  content: "\e64f";
+}
+
