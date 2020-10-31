@@ -1,4 +1,5 @@
 function botui_init() {
+    var botui = new BotUI("hello-akilar");
     botui.message.add({
         delay: 800, content: "Hi, there👋"
     }).then(function () {
