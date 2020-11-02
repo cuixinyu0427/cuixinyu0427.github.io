@@ -4337,7 +4337,7 @@ _:future,
   background: var(--btn-hover-color);
 }
 #vcomment textarea {
-  background: url("/img/comment_bg.png") 100% 100% no-repeat;
+  background: url("https://cdn.jsdelivr.net/gh/cuixinyu0427/cuixinyu0427.github.io/img/wudi.gif") 100% 100% no-repeat;
 }
 #vcomment textarea:focus {
   background-image: none;
