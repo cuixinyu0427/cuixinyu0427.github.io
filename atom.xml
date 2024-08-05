@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>小智の空间站</title>
+  <icon>https://blog.cuixinyu.com/icon.png</icon>
+  <subtitle>互联网中的静谧之地</subtitle>
+  <link href="https://blog.cuixinyu.com/atom.xml" rel="self"/>
+  
+  <link href="https://blog.cuixinyu.com/"/>
+  <updated>2023-07-21T14:10:16.000Z</updated>
+  <id>https://blog.cuixinyu.com/</id>
+  
+  <author>
+    <name>小智</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>修改源码记录(方便后续升级)</title>
+    <link href="https://blog.cuixinyu.com/posts/a98ed020.html"/>
+    <id>https://blog.cuixinyu.com/posts/a98ed020.html</id>
+    <published>2023-06-29T01:09:09.000Z</published>
+    <updated>2023-07-21T14:10:16.000Z</updated>
+    
+    
+    <summary type="html">修改源码记录(方便后续升级)</summary>
+    
+    
+    
+    <category term="blog" scheme="https://blog.cuixinyu.com/categories/blog/"/>
+    
+    
+    <category term="博客" scheme="https://blog.cuixinyu.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="魔改" scheme="https://blog.cuixinyu.com/tags/%E9%AD%94%E6%94%B9/"/>
+    
+    <category term="Hexo" scheme="https://blog.cuixinyu.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>返回上一页传递数据的多种方式</title>
+    <link href="https://blog.cuixinyu.com/posts/28bf5491.html"/>
+    <id>https://blog.cuixinyu.com/posts/28bf5491.html</id>
+    <published>2023-06-21T13:00:53.000Z</published>
+    <updated>2023-06-21T13:23:10.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;获取上一页页面实例调用&quot;&gt;&lt;a href=&quot;#获取上一页页面实例调用&quot; class=&quot;headerlink&quot; title=&quot;获取上一页页面实例调用&quot;&gt;&lt;/a&gt;获取上一页页面实例调用&lt;/h2&gt;&lt;details class=&quot;folding-tag&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="uniapp" scheme="https://blog.cuixinyu.com/categories/uniapp/"/>
+    
+    
+    <category term="传参" scheme="https://blog.cuixinyu.com/tags/%E4%BC%A0%E5%8F%82/"/>
+    
+    <category term="跳转" scheme="https://blog.cuixinyu.com/tags/%E8%B7%B3%E8%BD%AC/"/>
+    
+    <category term="uniapp" scheme="https://blog.cuixinyu.com/tags/uniapp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>百度统计项目部署记录</title>
+    <link href="https://blog.cuixinyu.com/posts/8bd8601.html"/>
+    <id>https://blog.cuixinyu.com/posts/8bd8601.html</id>
+    <published>2023-06-08T05:13:37.000Z</published>
+    <updated>2023-06-09T01:00:37.000Z</updated>
+    
+    
+    <summary type="html">百度统计项目部署记录</summary>
+    
+    
+    
+    <category term="后端" scheme="https://blog.cuixinyu.com/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    
+    <category term="后端" scheme="https://blog.cuixinyu.com/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="部署" scheme="https://blog.cuixinyu.com/tags/%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="python" scheme="https://blog.cuixinyu.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>颜色滑动选择弹窗</title>
+    <link href="https://blog.cuixinyu.com/posts/b49df70f.html"/>
+    <id>https://blog.cuixinyu.com/posts/b49df70f.html</id>
+    <published>2023-06-07T02:07:07.000Z</published>
+    <updated>2023-06-07T02:07:07.000Z</updated>
+    
+    
+    <summary type="html">颜色滑动选择弹窗</summary>
+    
+    
+    
+    <category term="uniapp" scheme="https://blog.cuixinyu.com/categories/uniapp/"/>
+    
+    
+    <category term="弹窗" scheme="https://blog.cuixinyu.com/tags/%E5%BC%B9%E7%AA%97/"/>
+    
+    <category term="uniapp" scheme="https://blog.cuixinyu.com/tags/uniapp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>uptime-kumab私有部署</title>
+    <link href="https://blog.cuixinyu.com/posts/12817a66.html"/>
+    <id>https://blog.cuixinyu.com/posts/12817a66.html</id>
+    <published>2023-06-06T08:10:29.000Z</published>
+    <updated>2023-06-06T08:20:29.000Z</updated>
+    
+    
+    <summary type="html">uptime-kumab私有部署</summary>
+    
+    
+    
+    <category term="后端" scheme="https://blog.cuixinyu.com/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    
+    <category term="搭建" scheme="https://blog.cuixinyu.com/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="私有部署" scheme="https://blog.cuixinyu.com/tags/%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>twikoo邮件通知模板</title>
+    <link href="https://blog.cuixinyu.com/posts/6bbbe4a5.html"/>
+    <id>https://blog.cuixinyu.com/posts/6bbbe4a5.html</id>
+    <published>2023-05-22T12:57:25.000Z</published>
+    <updated>2023-05-22T17:25:04.000Z</updated>
+    
+    
+    <summary type="html">twikoo邮件通知模板</summary>
+    
+    
+    
+    <category term="blog" scheme="https://blog.cuixinyu.com/categories/blog/"/>
+    
+    
+    <category term="博客" scheme="https://blog.cuixinyu.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="魔改" scheme="https://blog.cuixinyu.com/tags/%E9%AD%94%E6%94%B9/"/>
+    
+    <category term="Hexo" scheme="https://blog.cuixinyu.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小智の工具箱</title>
+    <link href="https://blog.cuixinyu.com/posts/7b2178fe.html"/>
+    <id>https://blog.cuixinyu.com/posts/7b2178fe.html</id>
+    <published>2023-05-21T15:00:41.000Z</published>
+    <updated>2023-06-28T03:01:09.000Z</updated>
+    
+    
+    <summary type="html">整理用过的工具网站</summary>
+    
+    
+    
+    <category term="tools" scheme="https://blog.cuixinyu.com/categories/tools/"/>
+    
+    
+    <category term="工具" scheme="https://blog.cuixinyu.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.cuixinyu.com/posts/4a17b156.html"/>
+    <id>https://blog.cuixinyu.com/posts/4a17b156.html</id>
+    <published>2023-05-19T16:00:00.000Z</published>
+    <updated>2023-05-19T16:00:00.000Z</updated>
+    
+    
+    <summary type="html">第一篇文章</summary>
+    
+    
+    
+    <category term="uniapp" scheme="https://blog.cuixinyu.com/categories/uniapp/"/>
+    
+    
+    <category term="前端" scheme="https://blog.cuixinyu.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="多端" scheme="https://blog.cuixinyu.com/tags/%E5%A4%9A%E7%AB%AF/"/>
+    
+    <category term="uniapp" scheme="https://blog.cuixinyu.com/tags/uniapp/"/>
+    
+  </entry>
+  
+</feed>
